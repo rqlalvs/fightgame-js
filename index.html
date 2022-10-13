@@ -16,7 +16,10 @@
                     style="position: absolute; background-color: pink; top: 0; bottom: 0; right: 0; width: 100%;"></div>
             </div>
             <!-- timer -->
-            <div style="background-color: plum; height: 100px; width: 100px; flex-shrink:0;"></div>
+            <div id="timer"
+                style="background-color: plum; height: 100px; width: 100px; flex-shrink:0; display: flex; align-items: center; justify-content: center;">
+                10
+            </div>
             <!-- enemy health-->
             <div style="position: relative; height: 30px; width: 100%">
                 <div style="background-color: blue; height: 30px;"></div>
@@ -25,6 +28,10 @@
                 </div>
             </div>
             <div></div>
+        </div>
+        <!-- win, loss or tie display-->
+        <div id ="displayText" style="position: absolute; color: white; align-items: center; justify-content: center; top: 0; right: 0; bottom: 0; left: 0; display: none;">
+            Empate
         </div>
         <canvas>
         </canvas>
